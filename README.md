@@ -43,7 +43,7 @@ V2EX_Scrapy
 -----
 
 * [scrapy 文档] (http://doc.scrapy.org/en/latest/)     
-* [V友整理的 V2EX API] (https://gist.github.com/fanzeyi/6951803)
+* [V友整理的 V2EX API] (https://gist.github.com/dbbbit/16a8fdbb73e627e00864)
 
 
 欢迎提交 Pull Request 来改进爬虫
