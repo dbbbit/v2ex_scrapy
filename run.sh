@@ -22,5 +22,6 @@ tail /tmp/v2ex/topic-$t -n 20
 
 tail /tmp/v2ex/reply-$t -n 20
 
-# crontab -e
+# cron usage
+# http://zh.wikipedia.org/wiki/Cron
 # */30     *       *       *       *       sh `v2ex_scrapy home`/run.sh > /tmp/v2ex_scrapy.log 2>&1

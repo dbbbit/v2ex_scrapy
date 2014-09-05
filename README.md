@@ -1,13 +1,14 @@
-v2ex_scrapy
+V2EX_Scrapy
 ===========
 
-`v2ex_scrapy` 是一只基于 [V2EX API](https://www.v2ex.com/p/7v9TEc53) 的社区爬虫  
+`V2EX_Scrapy` 是一只基于 [V2EX API](https://www.v2ex.com/p/7v9TEc53) 的异步 IO 爬虫  
 
-正努力地为 [v2ex 社区搜索]（http://shixiz.com) 抓取索引数据  
+正努力地为 [V2EX 第三方社区搜索] （http://shixiz.com) 抓取索引数据  
 
 开始使用前，请了解 [V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
 
-运行环境
+
+环境准备
 --------
 
 * [Scrapy] (http://scrapy.org/) 
@@ -29,7 +30,8 @@ v2ex_scrapy
 定时运行
 --------
 
-    参见 [run.sh]()
+    参见 [run.sh](https://github.com/dbbbit/v2ex_scrapy/blob/master/run.sh) 中的 `cron` 注释
+
 
 更多
 -----
@@ -39,6 +41,7 @@ v2ex_scrapy
 
 
 欢迎提交 Pull Request 来改进爬虫
+--------------------------------
 
-[建议，需求，Bug报告](https://github.com/dbbbit/v2ex_scrapy/issues)
+[建议，需求，Bug报告](https://github.com/dbbbit/v2ex_scrapy/issues)  
 [Fork Me](https://github.com/dbbbit/v2ex_scrapy/fork)
