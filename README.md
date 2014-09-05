@@ -5,7 +5,7 @@ V2EX_Scrapy
 `V2EX_Scrapy` 是一只基于 V2EX API 的异步 IO 爬虫  
  </br>
  </br>
-正努力地为 [V2EX 第三方社区搜索](http://shixiz.com) 抓取索引数据  
+正努力地为 [V2EX 第三方社区搜索](http://shixiz.com) 抓取数据  
 
 开始使用前，请确保了解:   
 [V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
