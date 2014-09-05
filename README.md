@@ -2,7 +2,7 @@ V2EX_Scrapy
 ===========
 
 
-`V2EX_Scrapy` 是一只基于 [V2EX API](https://www.v2ex.com/p/7v9TEc53) 的异步 IO 爬虫  
+`V2EX_Scrapy` 是一只基于 V2EX API 的异步 IO 爬虫  
 
 
 
