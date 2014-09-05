@@ -3,12 +3,13 @@ V2EX_Scrapy
 
 
 `V2EX_Scrapy` 是一只基于 V2EX API 的异步 IO 爬虫  
-
-
-
+ </br>
+ </br>
+   
 正努力地为 [V2EX 第三方社区搜索](http://shixiz.com) 抓取索引数据  
 
-开始使用前，请确保了解 [V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
+开始使用前，请确保了解:   
+[V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
 
 
 环境准备
@@ -25,7 +26,7 @@ V2EX_Scrapy
 
     sudo pip install scrapy
     sudo pip install pymongo
-
+    
 
     #: 抓取社区最新数据
 
@@ -36,7 +37,7 @@ V2EX_Scrapy
 定时运行
 --------
 
-    参见 [run.sh](https://github.com/dbbbit/v2ex_scrapy/blob/master/run.sh) 中的 `cron` 注释
+    参见  run.sh 中的 `cron` 注释
 
 
 更多
