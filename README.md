@@ -51,3 +51,5 @@ V2EX_Scrapy
 
 * [提交建议，需求，Bug报告](https://github.com/dbbbit/v2ex_scrapy/issues/new)  
 * [Fork Me](https://github.com/dbbbit/v2ex_scrapy/fork)
+
+<center><img src='http://shixiz.com/static/image/ninja.png' sytle="magin-right:auto;margin-left=auto"/></center>
