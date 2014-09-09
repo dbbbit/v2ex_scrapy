@@ -1,11 +1,5 @@
-V2EX_Scrapy
+v2ex_scrapy
 ===========
-
-
-`V2EX_Scrapy` 是一只基于 V2EX API 的异步 IO 爬虫  
- </br>
- </br>
-正努力地为 [V2EX 第三方社区搜索](http://shixiz.com) 抓取数据  
 
 开始使用前，请确保了解:   
 [V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
@@ -44,11 +38,6 @@ V2EX_Scrapy
 
 * [scrapy 文档] (http://doc.scrapy.org/en/latest/)     
 * [V友整理的 V2EX API] (https://gist.github.com/dbbbit/16a8fdbb73e627e00864)
-
-
-欢迎提交 Pull Request 来改进爬虫
---------------------------------
-
 * [提交建议，需求，Bug报告](https://github.com/dbbbit/v2ex_scrapy/issues/new)  
 * [Fork Me](https://github.com/dbbbit/v2ex_scrapy/fork)
 
