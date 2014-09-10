@@ -33,4 +33,26 @@ class ReplyItem(scrapy.Item):
     member = scrapy.Field() 
     created = scrapy.Field() 
     last_modified = scrapy.Field() 
-    topic_id = scrapy.Field()    
+    topic_id = scrapy.Field()   
+
+
+class MemberItem(scrapy.Item):
+    
+    #:http://www.v2ex.com/api/members/show.json?id=1
+    _id = scrapy.Field()
+    url = scrapy.Field()
+    username = scrapy.Field()
+    website = scrapy.Field()
+    twitter = scrapy.Field()
+    psn = scrapy.Field()
+    github = scrapy.Field()
+    btc = scrapy.Field()
+    location = scrapy.Field()
+    tagline = scrapy.Field()
+    bio = scrapy.Field()
+    avatar_mini = scrapy.Field()
+    avatar_normal = scrapy.Field()
+    avatar_large = scrapy.Field()
+    created = scrapy.Field()
+    
+

@@ -12,4 +12,4 @@ def maxid_local(collection):
 if __name__ == '__main__':
 	
 	print(topic_max())
-	print(maxid_local('topic'))
+	print(maxid_local('member'))
