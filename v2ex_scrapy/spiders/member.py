@@ -9,13 +9,17 @@ class memberSpider(scrapy.Spider):
     """ 
         usage:
             
-            scrapy crawl member -a start=1 -a end=2 
+            1.scrapy crawl member -a start=1 -a end=2 
+
+            2.scrapy crawl member  
+
+            3.scrapy crawl member -a file=path 
 
     """
 
     name = "member"
 
-    def __init__(self, start=None, end=None, *args, **kwargs):
+    def __init__(self, start=None, end=None, file=None, *args, **kwargs):
         
         super(memberSpider, self).__init__(*args, **kwargs)
 
@@ -24,7 +28,13 @@ class memberSpider(scrapy.Spider):
             start = maxid_local(self.name)
         if not end:
             end = start + 121
-        RANGE = range(int(start), int(end))
+
+        RANGE = range(int(start), int(end))   
+        if file:
+            f=open(file)
+            RANGE = map(int, f.readlines())
+            f.close()
+
         self.start_urls = [_url%(i) for i in RANGE]
 
     def parse(self, response):
