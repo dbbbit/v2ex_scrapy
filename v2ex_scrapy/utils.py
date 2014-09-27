@@ -7,8 +7,8 @@ def topic_max():
 
 def maxid_local(collection):
 
-	count = DB[collection].find().count()
-	if count > 0:
+	exist = DB[collection].find_one()
+	if exist:
 		return DB[collection].find().sort("_id", -1).limit(1)[0]['_id']
 	return 0
 
