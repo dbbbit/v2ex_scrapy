@@ -1,10 +1,6 @@
 v2ex_scrapy
 ===========
 
-开始使用前，请确保了解:   
-[V2EX 关于 API 公平使用方面的规则](https://www.v2ex.com/p/7v9TEc53)
-
-
 环境准备
 --------
 
@@ -37,7 +33,4 @@ v2ex_scrapy
 -----
 
 * [scrapy 文档] (http://doc.scrapy.org/en/latest/)     
-* [V友整理的 V2EX API] (https://gist.github.com/dbbbit/16a8fdbb73e627e00864)
-* [提交建议，需求，Bug报告](https://github.com/dbbbit/v2ex_scrapy/issues/new)  
-* [Fork Me](https://github.com/dbbbit/v2ex_scrapy/fork)
 
